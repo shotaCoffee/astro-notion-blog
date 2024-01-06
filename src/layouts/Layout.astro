@@ -127,6 +127,15 @@ if (database.Icon && database.Icon.Type === 'file') {
 
         <slot name='main' />
 
+        <footer>
+          <div>
+            <span>Powered by&nbsp;</span>
+            <a href="https://github.com/otoyo/astro-notion-blog"
+            >astro-notion-blog</a
+            >
+          </div>
+        </footer>
+
       </div>
     </main>
 
@@ -259,7 +268,7 @@ if (database.Icon && database.Icon.Type === 'file') {
   main footer {
     margin: 30px 0 10px;
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 10px;
   }
 
   @media (max-width: 640px) {
